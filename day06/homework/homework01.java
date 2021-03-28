@@ -4,16 +4,16 @@ import java.util.Scanner;
 public class homework01 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.print("¿¬µµÀÔ·Â:");
+		System.out.print("ì—°ë„ì…ë ¥:");
 		int a=sc.nextInt();
 		if(a%4==0)
 		{
 			if((a%100==0)&&(a%400!=0))
-				System.out.println("Æò³â");
+				System.out.println("í‰ë…„");
 			else
-				System.out.println("À±³â");
+				System.out.println("ìœ¤ë…„");
 		}
 		else
-			System.out.println("Æò³â");
+			System.out.println("í‰ë…„");
 	}
 }
